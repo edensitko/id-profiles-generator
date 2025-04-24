@@ -1,0 +1,6 @@
+apiVersion: v2
+name: react-flask-app
+description: A Helm chart for deploying a React + Flask app
+type: application
+version: 0.1.0            # ✅ חובה
+appVersion: "1.0"

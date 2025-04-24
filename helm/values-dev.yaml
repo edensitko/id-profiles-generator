@@ -1,0 +1,11 @@
+backend:
+  image: edensit139/eden-backend:dev
+  containerPort: 5000
+  servicePort: 5000
+
+dnsName: dev.genrapp
+
+frontend:
+  image: edensit139/eden-frontend:dev
+  containerPort: 80
+  servicePort: 80
